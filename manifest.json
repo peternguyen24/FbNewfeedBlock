@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Facebook newfeed and add block",
+	"version": "1.0.1",
+	"description": "Block the distracted information from facebook",
+	"content_scripts": [
+    {
+      // Change 'matches' attribute to load content
+      // script only in pages you want to.
+      "matches": ["https://www.facebook.com/"],
+      "js": ["jquery.min.js", "contentscript.js"]
+    }
+	]
+}
