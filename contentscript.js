@@ -20,7 +20,7 @@ function block(){
 
 	//sub message
 	sub_message = $("<p></p>")
-		.text("Keep focus on. Don't get distracted by facebook !")
+		.text("Newfeed blocked by PeterNguyen")
 		.css('font-size','12px')
 		.css('top','20px');
 	ads.append(sub_message);
