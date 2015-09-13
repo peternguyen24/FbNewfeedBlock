@@ -18,7 +18,12 @@ function block(){
 		.css('top','100px')
 	feed.append(message);
 
-	
+	//sub message
+	sub_message = $("<p></p>")
+		.text("Keep focus on. Don't get distracted by facebook !")
+		.css('font-size','12px')
+		.css('top','20px');
+	ads.append(sub_message);
 }
 
 function keepBlock(func,delay){
